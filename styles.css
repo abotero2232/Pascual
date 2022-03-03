@@ -1,0 +1,124 @@
+:root{
+    --principal: #1D5156; 
+}
+body {    
+    background-color: var(--principal);
+}
+.ContenedorPrincipal{
+    display: flex;  
+    flex-direction: column;
+    align-items: stretch;
+    justify-content:space-between;
+
+    background-color: white;    
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+}
+.contenedorUno{
+    display: flex;       
+    border-bottom: 3px solid var(--principal);
+    padding: 10px; 
+        
+    flex-direction: row;
+    align-items: stretch;
+    justify-content:center;
+    
+
+}
+
+.contenedorDos{
+    display: inline-flex;    
+    border-bottom: 3px solid var(--principal);
+    padding: 10px;
+    
+    flex-direction: row;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content:center;
+}
+
+.contenedorTres{
+    display: flex;       
+    border-bottom: 3px solid var(--principal);
+    padding: 10px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+
+/* -- Elementos -- */
+.Titulo1{    
+    border-bottom: 3px solid var(--principal);
+    
+}
+.Titulo2{
+    border-bottom: 3px solid var(--principal);
+}
+
+#Diseño1{
+    display: block;    
+    
+}
+
+
+/* -- HIJOS CONTENEDOR UNO -- */
+.contenedorUno .item:nth-child(1){    
+    width: 50%;
+    padding: 70px;   
+    padding-left: 200px; 
+}
+.contenedorUno .item:nth-child(2){   
+    width: 50%;
+}
+
+
+/* --  HIJOS CONTENEDOR DOS -- */
+.contenedorDos .item:nth-child(1){
+    width: 25%;
+    padding: 5px;
+    
+}
+.contenedorDos .item:nth-child(2){
+    width: 25%;
+    padding: 5px;
+    
+}
+.contenedorDos .item:nth-child(3){
+    width: 25%;
+    padding: 5px;
+}
+.contenedorDos .item:nth-child(4){
+    width: 25%;
+    padding: 5px;
+}
+
+
+/* -- HIJOS CONTENEDOR TRES -- */
+.contenedorTres .item:nth-child(1){
+    width: 25%;
+    text-align: center;
+}
+.contenedorTres .item:nth-child(2){
+    width: 25%;
+    text-align: center;
+}
+.contenedorTres .item:nth-child(3){
+    width: 25%;
+    text-align: center;
+}
+.contenedorTres .item:nth-child(4){
+    width: 25%;
+    text-align: center;
+}
+
+
+
+
+
+    
+
